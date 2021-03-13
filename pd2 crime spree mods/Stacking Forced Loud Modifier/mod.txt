@@ -1,0 +1,15 @@
+{
+	"name": "Stacking Forced Loud Modifier",
+	"description": "Prevent crash in crime spree with huge score.",
+	"author": "TK7",
+	"contact": "https://steamcommunity.com/id/2010TK7",
+	"version": "1.6",
+	"image": "cs.png",
+	"blt_version": 2,
+	"hooks": [
+		{"hook_id": "lib/managers/crimespreemanager", "script_path": "crimespreemanager.lua"}
+	],
+	"updates": [
+		{"identifier": "SFM", "host": {"meta": "https://storage.live.com/items/8C3AB972E7E69B18!118?authkey=!AOZoHHpqnlDeZes"}}
+	]
+}

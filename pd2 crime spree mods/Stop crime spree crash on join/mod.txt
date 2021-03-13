@@ -1,0 +1,16 @@
+{
+	"name": "Stop Crime Spree Crash on Join",
+	"description": "Hides HUD modifiers for crime spree",
+	"author": "Pipemax32",
+	"contact": "Pipemax32",
+	"version": "2",
+	"priority": 459,
+        "blt_version" : 2,
+	"image" : "b2.jpg",
+	"hooks": [
+		{   
+            "hook_id": "lib/managers/menu/crimespreedetailsmenucomponent",
+            "script_path": "lua/esconder.lua"
+        }
+	]
+}

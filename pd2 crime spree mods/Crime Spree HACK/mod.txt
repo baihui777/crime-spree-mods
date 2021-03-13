@@ -1,0 +1,14 @@
+{
+    "name" : "baihui",
+    "description" : "KRANCBO",
+    "author" : "KRANCBO",
+    "contact" : "-",
+    "version" : "",
+    "priority" : 0,
+    "hooks":[  
+        {  
+            "hook_id": "lib/tweak_data/crimespreetweakdata",
+            "script_path": "ncsl.lua"
+        }
+    ]
+}
